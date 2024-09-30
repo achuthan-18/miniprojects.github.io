@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1>CALCULATOR</h1>
+    <div class="container">
+        <input id="display" readonly name="output">
+    
+        <button class="button" id="button1" onclick="eraseall()">AC</button>
+        <button class="button" id="button2" onclick="erase()">DE</button>
+        <button class="button" id="button3" onclick="append('%')">%</button>
+        <button class="button" id="button4" onclick="append('/')">
+            <i class="fa-solid fa-divide"></i>
+        </button>
+        <button class="button numbutton" id="button5" onclick="append('7')">7</button>
+        <button class="button numbutton" id="button6" onclick="append('8')">8</button>
+        <button class="button numbutton" id="button7" onclick="append('9')">9</button>
+        <button class="button" id="button8" onclick="append('*')">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button class="button numbutton" id="button9" onclick="append('4')">4</button>
+        <button class="button numbutton" id="button10" onclick="append('5')">5</button>
+        <button class="button numbutton" id="button11" onclick="append('6')">6</button>
+        <button class="button" id="button12" onclick="append('-')">
+            <i class="fa-solid fa-minus"></i>
+        </button>
+        <button class="button numbutton" id="button13" onclick="append('1')">1</button>
+        <button class="button numbutton" id="button14" onclick="append('2')">2</button>
+        <button class="button numbutton" id="button15" onclick="append('3')">3</button>
+        <button class="button" id="button16" onclick="append('+')">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+        <button class="button numbutton" id="button17" onclick="append('0')">0</button>
+        <button class="button numbutton" id="button18" onclick="append('.')">.</button>
+        <button class="button" id="button19" onclick="result()">=</button>
+        
+
+
+    </div>
+    
+    <script src="https://kit.fontawesome.com/c436ef13cb.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
