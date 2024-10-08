@@ -1,7 +1,7 @@
 const display = document.getElementById("display");
 
 function append(input){
-    if(display.value == "Error" || display.value == "Infinity" || display.value == "undefined" || display.value == '0')  {
+    if(display.value == "Error" || display.value == "Infinity" || display.value == "undefined" || display.value == '0' || display.value == "NaN")  {
     display.value = input;
     }
     else{
